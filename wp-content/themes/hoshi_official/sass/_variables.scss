@@ -1,0 +1,84 @@
+$c_theme_color:#FFDC00;
+$c_bg_color:#fcfcfc;
+$c_font_color:#5A5655;
+$c_link_color:#74B5B8;
+
+$c_yellow_l:#FFEC7A;
+$c_yellow:#FFDC00;
+$c_yellow_d:#FFC400;
+
+$c_brown:#5A5655;
+$c_green:#74B5B8;
+
+$c_white_l: #fff;
+$c_white:#fcfcfc;
+$c_lightgray:#e7e7e7;
+$c_gray:#9B9B9B;
+$c_darkgray: #707070;
+$c_black:#191919;
+$c_black_d:#000;
+
+// fontfamily_setting
+$font_base_setting : YakuHanJP, "Zen Maru Gothic", 'Noto Sans JP', 'Noto Sans', "メイリオ","Meiryo","MS PGothic",sans-serif;
+$f_noto : YakuHanJP, 'Noto Sans JP', 'Noto Sans', "メイリオ","Meiryo","MS PGothic",sans-serif;
+$f_hiragino : YakuHanJP, "Helvetica Neue", Arial , "Hiragino Kaku Gothic ProN","Hiragino Sans" , Meiryo , sans-serif;
+$f_concert_one : YakuHanJP, "Concert One", "Zen Maru Gothic", 'Noto Sans JP', 'Noto Sans', "メイリオ","Meiryo","MS PGothic",sans-serif;
+
+// img_path
+$imgPath: "../images/";
+
+// Media Queries
+$mediaquery_w: 835px;
+
+//z-index
+$loading_z:20000;
+$pagefade_z:15000;
+$modal_z:11000;
+$frame_z: 10000;
+$nav_trigger_z: 9999;
+$nav_z:9998;
+$sub_nav_z: 9997;
+$index_btn_z: 9997;
+$header_logo_z: 9997;
+
+
+// easing
+$easeOutCubic: cubic-bezier(0.33, 1, 0.68, 1);
+$easeOutQuint: cubic-bezier(0.22, 1, 0.36, 1);
+$easeOutSuperQuint: cubic-bezier(0, 1.04, 0.14, 1);
+$easeOutCirc: cubic-bezier(0, 0.55, 0.45, 1);
+$easeInCubic: cubic-bezier(0.32, 0, 0.67, 0);
+$easeInQuint: cubic-bezier(0.64, 0, 0.78, 0);
+$easeInCirc: cubic-bezier(0.55, 0, 1, 0.45);
+$easeInOutQuint: cubic-bezier(0.83, 0, 0.17, 1);
+$easeInOutCirc: cubic-bezier(0.85, 0, 0.15, 1);
+$easeInOutCubic: cubic-bezier(0.65, 0, 0.35, 1);
+$easeInOutBack: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+// mixin
+@mixin tategaki {-ms-writing-mode: tb-rl; writing-mode: vertical-rl;}
+@mixin wrap_set($max_width) { position: relative; margin: 0 auto; max-width: $max_width; width: var(--wrap_width); }
+@mixin line_clamp($line_length) {display: -webkit-box;-webkit-line-clamp: $line_length;-webkit-box-orient: vertical;overflow: hidden; }
+
+//  SNS Brand color Settings
+$color_facebook:  #1877f2; // Facebook
+$color_twitter:   #1da1f2; // Twitter
+$color_googleplus:#dd4b39; // Google+
+$color_instagram: #D93177; // Instagram
+$color_line:      #00c300; // LINE
+$color_youtube:   #cd201f; // YouTube
+$color_vimeo:     #1ab7ea; // Vimeo
+$color_skype:     #12a5f4; // Skype
+$color_pinterest: #bd081c; // Pinterest
+$color_note:      #2dcdb5; // Note
+$color_pixiv:     #127bb1; // Pixiv
+$color_wordpress: #21759b; // WordPress
+$color_eplus:     #ff33ff; //e-plus cmyk(0,80,0,0);
+$color_streamingplus:#ee5ba0; //streaming+
+$color_spoon:     #ff4100; // Spoon
+
+$color_dropbox:   #007ee5; // Dropbox
+$color_snapchat:  #fffc00; // Snapchat
+$color_tumblr:    #36465d; // Tumblr
+$color_flickr_01: #0063dc; // Flickr 1
+$color_flickr_02: #ff0084; // Flickr 2
